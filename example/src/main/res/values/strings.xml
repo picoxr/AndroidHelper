@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">example</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+</resources>

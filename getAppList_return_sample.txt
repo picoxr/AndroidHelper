@@ -1,0 +1,151 @@
+[{
+	"mPackageName": "com.picovr.example",
+	"mActivityName": "com.picovr.example.MainActivity",
+	"mAppName": "example",
+	"mInstallTime": 1595404536328,
+	"mSystemFlag": 0
+}, {
+	"mPackageName": "com.example.hello_layout",
+	"mActivityName": "com.example.hello_layout.MainActivity",
+	"mAppName": "hello_layout",
+	"mInstallTime": 1595152057923,
+	"mSystemFlag": 0
+}, {
+	"mPackageName": "com.android.settings",
+	"mActivityName": "com.android.settings.Settings",
+	"mAppName": "Settings",
+	"mInstallTime": 1588234590000,
+	"mSystemFlag": 1
+}, {
+	"mPackageName": "com.android.contacts",
+	"mActivityName": "com.android.contacts.activities.PeopleActivity",
+	"mAppName": "Contacts",
+	"mInstallTime": 1588234531000,
+	"mSystemFlag": 1
+}, {
+	"mPackageName": "com.android.documentsui",
+	"mActivityName": "com.android.documentsui.LauncherActivity",
+	"mAppName": "Files",
+	"mInstallTime": 1588234524000,
+	"mSystemFlag": 1
+}, {
+	"mPackageName": "com.android.camera2",
+	"mActivityName": "com.android.camera.CameraLauncher",
+	"mAppName": "Camera",
+	"mInstallTime": 1588234512000,
+	"mSystemFlag": 1
+}, {
+	"mPackageName": "com.android.calculator2",
+	"mActivityName": "com.android.calculator2.Calculator",
+	"mAppName": "Calculator",
+	"mInstallTime": 1588234471000,
+	"mSystemFlag": 1
+}, {
+	"mPackageName": "org.chromium.webview_shell",
+	"mActivityName": "org.chromium.webview_shell.WebViewBrowserActivity",
+	"mAppName": "WebView Browser Tester",
+	"mInstallTime": 1588234441000,
+	"mSystemFlag": 1
+}, {
+	"mPackageName": "com.android.chrome",
+	"mActivityName": "com.google.android.apps.chrome.Main",
+	"mAppName": "Chrome",
+	"mInstallTime": 1588234389000,
+	"mSystemFlag": 1
+}, {
+	"mPackageName": "com.android.development",
+	"mActivityName": "com.android.development.Development",
+	"mAppName": "Dev Tools",
+	"mInstallTime": 1588234352000,
+	"mSystemFlag": 1
+}, {
+	"mPackageName": "com.google.android.googlequicksearchbox",
+	"mActivityName": "com.google.android.googlequicksearchbox.VoiceSearchActivity",
+	"mAppName": "Voice Search",
+	"mInstallTime": 1588234242000,
+	"mSystemFlag": 1
+}, {
+	"mPackageName": "com.google.android.googlequicksearchbox",
+	"mActivityName": "com.google.android.googlequicksearchbox.SearchActivity",
+	"mAppName": "Google",
+	"mInstallTime": 1588234242000,
+	"mSystemFlag": 1
+}, {
+	"mPackageName": "com.google.android.apps.photos",
+	"mActivityName": "com.google.android.apps.photos.home.HomeActivity",
+	"mAppName": "Photos",
+	"mInstallTime": 1588234238000,
+	"mSystemFlag": 1
+}, {
+	"mPackageName": "com.google.android.dialer",
+	"mActivityName": "com.google.android.dialer.extensions.GoogleDialtactsActivity",
+	"mAppName": "Phone",
+	"mInstallTime": 1588234238000,
+	"mSystemFlag": 1
+}, {
+	"mPackageName": "com.google.android.youtube",
+	"mActivityName": "com.google.android.youtube.app.honeycomb.Shell$HomeActivity",
+	"mAppName": "YouTube",
+	"mInstallTime": 1588234238000,
+	"mSystemFlag": 1
+}, {
+	"mPackageName": "com.google.android.apps.wallpaper",
+	"mActivityName": "com.google.android.apps.wallpaper.picker.CategoryPickerActivity",
+	"mAppName": "Wallpapers",
+	"mInstallTime": 1588234238000,
+	"mSystemFlag": 1
+}, {
+	"mPackageName": "com.google.android.gm",
+	"mActivityName": "com.google.android.gm.ConversationListActivityGmail",
+	"mAppName": "Gmail",
+	"mInstallTime": 1588234237000,
+	"mSystemFlag": 1
+}, {
+	"mPackageName": "com.google.android.videos",
+	"mActivityName": "com.google.android.youtube.videos.EntryPoint",
+	"mAppName": "Play Movies & TV",
+	"mInstallTime": 1588234237000,
+	"mSystemFlag": 1
+}, {
+	"mPackageName": "com.google.android.apps.maps",
+	"mActivityName": "com.google.android.maps.MapsActivity",
+	"mAppName": "Maps",
+	"mInstallTime": 1588234236000,
+	"mSystemFlag": 1
+}, {
+	"mPackageName": "com.google.android.apps.messaging",
+	"mActivityName": "com.google.android.apps.messaging.ui.ConversationListActivity",
+	"mAppName": "Messages",
+	"mInstallTime": 1588234236000,
+	"mSystemFlag": 1
+}, {
+	"mPackageName": "com.google.android.deskclock",
+	"mActivityName": "com.android.deskclock.DeskClock",
+	"mAppName": "Clock",
+	"mInstallTime": 1588234236000,
+	"mSystemFlag": 1
+}, {
+	"mPackageName": "com.google.android.music",
+	"mActivityName": "com.android.music.activitymanagement.TopLevelActivity",
+	"mAppName": "Play Music",
+	"mInstallTime": 1588234236000,
+	"mSystemFlag": 1
+}, {
+	"mPackageName": "com.google.android.apps.docs",
+	"mActivityName": "com.google.android.apps.docs.app.NewMainProxyActivity",
+	"mAppName": "Drive",
+	"mInstallTime": 1588234235000,
+	"mSystemFlag": 1
+}, {
+	"mPackageName": "com.google.android.calendar",
+	"mActivityName": "com.android.calendar.AllInOneActivity",
+	"mAppName": "Calendar",
+	"mInstallTime": 1588234234000,
+	"mSystemFlag": 1
+}, {
+	"mPackageName": "com.android.customlocale2",
+	"mActivityName": "com.android.customlocale2.CustomLocaleActivity",
+	"mAppName": "Custom Locale",
+	"mInstallTime": 1588234234000,
+	"mSystemFlag": 1
+}]
