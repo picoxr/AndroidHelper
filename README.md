@@ -52,7 +52,7 @@ The ``installApp`` API use ``AndroidX`` support library which may cause conflict
 ### DeviceHelper  
 - [getPUIVersion][getPUIVersion]: get PUI version of device.
 - [getDeviceType][getDeviceType]: Get type of device.   
-- [getSN][getSN]: Get serial number of device.        
+- [getSN (*)][getSN]: Get serial number of device.        
 - [silentInstall (*)][silentInstall]: Install the application without user interaction.   
 - [silentUninstall (*)][silentUninstall]:  Uninstall the application without user interaction.       
 - [killApp][killApp]: Kill the application.     
