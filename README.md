@@ -1,5 +1,7 @@
 # Android Helper
 
+- If you have any questions/comments, please visit [**Pico Developer Answers**](https://devanswers.pico-interactive.com/) and raise your question there.
+
 This project incorporates most of our Android repositories into one single package, and categorizes all interfaces into 6 classes:  ``DeviceHelper``, ``StorageHelper``, ``BlueToothHelper``, ``WifiHelper``, ``PowerManagerHelper``, ``AudioHelper``.
 
 ## Prerequirement
