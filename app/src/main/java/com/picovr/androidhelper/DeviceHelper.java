@@ -321,26 +321,18 @@ public class DeviceHelper extends AndroidHelper {
     }
 
     public void installApp(String path) {
-        Log.d(TAG, "installApp: ");
-        int sdk = Build.VERSION.SDK_INT;
-        Log.e(TAG, "installApp：" + sdk);
-        Intent intent;
-        if (sdk < 24) {
-            intent = new Intent(Intent.ACTION_VIEW);
-            intent.setDataAndType(
-                    Uri.fromFile(new File(path)),
-                    "application/vnd.android.package-archive"
-            );
+        int version = Build.VERSION.SDK_INT;
+        File file = new File(path);
+        Uri apkUri = FileProvider.getUriForFile(mContext, "com.pvr.filemanager.fileprovider", file);
+        Intent extraIntent = new Intent(Intent.ACTION_VIEW);
+        extraIntent.setDataAndType(apkUri, "application/vnd.android.package-archive");
+        extraIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        extraIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION | Intent.FLAG_GRANT_WRITE_URI_PERMISSION);
+        if (version < Build.VERSION_CODES.P) {
+            mContext.startActivity(extraIntent);
         } else {
-            File file = new File(path);
-
-            Uri apkUri = FileProvider.getUriForFile(mContext, "com.pvr.filemanager.fileprovider", file);
-//            Uri apkUri = FileProvider.getUriForFile(mContext, mContext.getApplicationInfo().packageName + ".fileprovider", file);
-            intent = new Intent(Intent.ACTION_VIEW);
-            intent.setDataAndType(apkUri, "application/vnd.android.package-archive");
-            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-            intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION | Intent.FLAG_GRANT_WRITE_URI_PERMISSION);
-
+            Intent intent = new Intent("pvr.intent.action.VRSHELL");
+            intent.putExtra("intent", extraIntent);
             mContext.startActivity(intent);
         }
     }
